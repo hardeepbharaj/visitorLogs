@@ -1,0 +1,26 @@
+.list-container {
+  width: 60%;
+  margin: auto;
+}
+
+.list-container ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.list-container li {
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #BDBDBD;
+  border-radius: 20px;
+}
+
+.list-container li div {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1022px) {
+  .list-container {
+    width: 80%;
+  }
+}
